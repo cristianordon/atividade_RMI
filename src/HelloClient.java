@@ -18,13 +18,13 @@ public class HelloClient {
 			System.out.println("Vamos calcular a fórmula de BHÁSKARA...");
 			
 			System.out.println("Digite o valor de A: "); // Solicitando valor de A
-	        a = Double.parseDouble(ler.next());
+	        a = Double.parseDouble(ler.next()); // Recebendo o valor de A
 			
 	        System.out.println("Digite o valor de B: ");  // Solicitando valor de B
-	        b = Double.parseDouble(ler.next());
+	        b = Double.parseDouble(ler.next()); // Recebendo o valor de B
 	        
 	        System.out.println("Digite o valor de C: ");  // Solicitando valor de C
-	        c = Double.parseDouble(ler.next());
+	        c = Double.parseDouble(ler.next()); // Recebendo o valor de C
 	        ler.close();
 			
 			// Chama o método do servidor e imprime a mensagem

@@ -29,6 +29,6 @@ public class HelloServer implements Hello {
 	public double hello(double a, double  b,  double c) throws RemoteException {
 		double delta;
 		delta = (b * b) + (-4 * (a * c));  // Calculando valor de Delta
-		return delta;
+		return delta; // Retorna o resultado de Delta
 	}
 }
