@@ -25,13 +25,13 @@ public class HelloClient {
 	        
 	        System.out.println("Digite o valor de C: ");  // Solicitando valor de C
 	        c = Double.parseDouble(ler.next());
-	        
+	        ler.close();
 			
 			// Chama o método do servidor e imprime a mensagem
 			System.out.println("Invocando metodo do servidor");
-			double delta = stub.hello(a,b,c);
+			double delta = stub.hello(a, b, c);
 			System.out.println("O valor de Delta é: " +delta); 
-		
+		    
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		} 

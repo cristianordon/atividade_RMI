@@ -1,7 +1,6 @@
 import java.rmi.*;
 import java.rmi.server.*;
 import java.rmi.registry.*;
-import java.util.*;
 
 
 public class HelloServer implements Hello {
