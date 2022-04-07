@@ -15,25 +15,25 @@ public class HelloClient {
 			// Procura a stub do servidor
 			Hello stub= (Hello) registry.lookup("Servidor");
 			
-			System.out.println("Vamos calcular a fÛrmula de BH¡SKARA...");
+			System.out.println("Vamos calcular a f√≥rmula de BH√ÅSKARA...");
 			
 			System.out.println("Digite o valor de A: "); // Solicitando valor de A
-	        a = Double.parseDouble(ler.next()); // Recebendo o valor de A
+			 a = Double.parseDouble(ler.next()); // Recebendo o valor de A
 			
-	        System.out.println("Digite o valor de B: ");  // Solicitando valor de B
-	        b = Double.parseDouble(ler.next()); // Recebendo o valor de B
+	        	System.out.println("Digite o valor de B: ");  // Solicitando valor de B
+	        	b = Double.parseDouble(ler.next()); // Recebendo o valor de B
 	        
-	        System.out.println("Digite o valor de C: ");  // Solicitando valor de C
-	        c = Double.parseDouble(ler.next()); // Recebendo o valor de C
-	        ler.close();
+	        	System.out.println("Digite o valor de C: ");  // Solicitando valor de C
+	        	c = Double.parseDouble(ler.next()); // Recebendo o valor de C
+	        	ler.close();
 			
-			// Chama o mÈtodo do servidor e imprime a mensagem
+			// Chama o m√©todo do servidor e imprime a mensagem
 			System.out.println("Invocando metodo do servidor");
 			double delta = stub.hello(a, b, c);
-			System.out.println("O valor de Delta È: " +delta); 
+			System.out.println("O valor de Delta √©: " +delta); 
 		    
-		} catch (Exception ex) {
-			ex.printStackTrace();
+			} catch (Exception ex) {
+				ex.printStackTrace();
 		} 
 	}
 }
