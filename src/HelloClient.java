@@ -32,7 +32,7 @@ public class HelloClient {
 			double delta = stub.hello(a, b, c);
 			System.out.println("O valor de Delta é: " +delta); 
 		    
-			} catch (Exception ex) {
+		} catch (Exception ex) {
 				ex.printStackTrace();
 		} 
 	}
